@@ -8,31 +8,31 @@
     <title>Project-TS Rock, Paper, Scissors</title>
   </head>
   <body>
-    <div class="Rounds">
+    <div id="Rounds">
       <h2>How many rounds ?</h2>
-      <input class="fiveRounds" type="checkbox">5</input>
-      <input class="tenRounds" type="checkbox">10</input>
-      <input class="fifteenRounds" type="checkbox">15</input>
-      <input class="twentyRounds" type="checkbox">20</input>
+      <input id="fiveRounds" type="radio">5</input>
+      <input id="tenRounds" type="radio">10</input>
+      <input id="fifteenRounds" type="radio">15</input>
+      <input id="twentyRounds" type="radio">20</input>
     </div>
 
     <div>
       <img src="#" alt="Me">
-      <div class="Output"></div>
+      <div id="Output"></div>
       <img src="#" alt="Computer">
     </div>
 
     <h1>Let's Play</h1>
 
-    <div class="Choices">
-      <button class="Rock">Rock</button>
-      <button class="Paper">Paper</button>
-      <button class="Scissors">Scissors</button>
+    <div id="Choices">
+      <button id="Rock">Rock</button>
+      <button id="Paper">Paper</button>
+      <button id="Scissors">Scissors</button>
     </div>
 
     <p>MAKE YOUR MOVE.</p>
 
-   <button>restart</button>
+   <button id="reset" >restart</button>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
