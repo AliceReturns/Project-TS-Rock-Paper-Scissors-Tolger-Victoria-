@@ -10,18 +10,23 @@
   <body>
     <div class="Rounds">
       <h2>How many rounds ?</h2>
-      <input class="fiveRounds" type="checkbox">5</input>
-      <input class="tenRounds" type="checkbox">10</input>
-      <input class="fifteenRounds" type="checkbox">15</input>
-      <input class="twentyRounds" type="checkbox">20</input>
-    </div>
+      <input class="fiveRounds" type="checkbox" value="5">5</input>
+      <input class="tenRounds" type="checkbox" value="10">10</input>
+      <input class="fifteenRounds" type="checkbox" value="15">15</input>
+      <input class="twentyRounds" type="checkbox" value="20">20</input>
+  </div>
 
-    <div>
-      <img src="#" alt="Me">
-      <div class="Output"></div>
-      <img src="#" alt="Computer">
+  <div>
+    <div class="playerScore">
+        <img src="#" alt="Me">
+        <p id="userScore">0</p> 
     </div>
-
+    <div class="Output"></div>
+    <div class="computerScore">
+        <img src="#" alt="Computer">
+        <p id="computerScore">0</p> 
+    </div>
+</div>
     <h1>Let's Play</h1>
 
     <div class="Choices">
@@ -32,7 +37,7 @@
 
     <p>MAKE YOUR MOVE.</p>
 
-   <button>restart</button>
+    <button id="restartButton">restart</button>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
