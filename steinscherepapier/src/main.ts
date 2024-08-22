@@ -40,3 +40,5 @@ fiveRoundsBtn.addEventListener("change", setGameRounds);
 tenRoundsBtn.addEventListener("change", setGameRounds);
 fifteenRoundsBtn.addEventListener("change", setGameRounds);
 twentyRoundsBtn.addEventListener("change", setGameRounds);
+
+// new
